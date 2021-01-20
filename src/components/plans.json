@@ -1,0 +1,33 @@
+[
+  {
+    "recommended": false,
+    "title": "FREE",
+    "price": 0,
+    "description": "For hobby projects or small teams",
+    "features": ["1 Workspace", "Unlimitted Traffic", "Basic Support"]
+  },
+  {
+    "recommended": true,
+    "title": "PLUS",
+    "price": 29,
+    "description": "For ambitious projects.",
+    "features": [
+      "5 Workspace",
+      "Unlimitted Traffic",
+      "100GB Strorage",
+      "Plus Support"
+    ]
+  },
+  {
+    "recommended": false,
+    "title": "PREMIUM",
+    "price": 99,
+    "description": "For enterprise solution.",
+    "features": [
+      "10 Workspace",
+      "Unlimitted Traffic",
+      "Unlimitted Strorage",
+      "Priority Support"
+    ]
+  }
+]

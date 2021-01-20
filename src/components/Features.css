@@ -1,0 +1,43 @@
+.key-features {
+  background: #ff1b68;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.key-features__title {
+  color: white;
+  margin: 2rem;
+}
+
+.key-features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.key-feature__image {
+  width: 128px;
+  height: 128px;
+  background: #ffcdde;
+  border-radius: 50%;
+  border: solid #424242 2px;
+  padding: 1.2rem;
+  margin: auto;
+}
+
+@media (min-width: 40rem) {
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    max-width: 25rem;
+  }
+}
