@@ -21,7 +21,7 @@ const StartHosting = () => {
         <input type="password" id="password" />
         <input type="checkbox" id="agree-terms" />
         <label for="agree-terms">
-          Agree to <a href="#">Term &amp; Conditions</a>
+          Agree to <a href="#/">Term &amp; Conditions</a>
         </label>
         <Button disabled type="submit" className="button">
           Sign Up
