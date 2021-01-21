@@ -2,8 +2,8 @@
   position: fixed;
   z-index: 200;
   top: 20vh;
-  left: 30vw;
-  width: 40vw;
+  left: 20vw;
+  width: 60vw;
   background: white;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -13,6 +13,7 @@
 .modal__title {
   text-align: center;
   margin: 0 0 1rem 0;
+  font-size: 1.5rem;
 }
 
 .modal__actions {
@@ -45,4 +46,15 @@
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+@media (min-width: 40rem) {
+  .modal {
+    left: 30vw;
+    width: 40vw;
+  }
+
+  .modal__title {
+    font-size: 2rem;
+  }
 }

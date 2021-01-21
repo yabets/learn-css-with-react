@@ -6,21 +6,21 @@ const StartHosting = () => {
     <main className="signup-main">
       <h1 className="signup-title">Awesome! Let's dive right in!</h1>
       <form action="/" className="signup-form">
-        <label for="title">Title</label>
+        <label htmlFor="title">Title</label>
         <select id="title">
           <option value="mr">Mr.</option>
           <option value="ms">Ms.</option>
         </select>
-        <label for="first-name">First name</label>
+        <label htmlFor="first-name">First name</label>
         <input type="text" id="first-name" required />
-        <label for="last-name">Last name</label>
+        <label htmlFor="last-name">Last name</label>
         <input type="text" id="last-name" />
-        <label for="email">E-Mail</label>
+        <label htmlFor="email">E-Mail</label>
         <input type="email" id="email" />
-        <label for="password">Password</label>
+        <label htmlFor="password">Password</label>
         <input type="password" id="password" />
         <input type="checkbox" id="agree-terms" />
-        <label for="agree-terms">
+        <label htmlFor="agree-terms">
           Agree to <a href="#/">Term &amp; Conditions</a>
         </label>
         <Button disabled type="submit" className="button">

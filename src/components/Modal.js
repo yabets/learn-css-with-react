@@ -16,7 +16,11 @@ const Modal = ({ display }) => {
         <div className="modal">
           <h1 className="modal__title">Do you want to continue?</h1>
           <div className="modal__actions">
-            <Link to="/start-hosting" className="modal__action">
+            <Link
+              to="/start-hosting"
+              className="modal__action"
+              onClick={toggleModal}
+            >
               Yes!
             </Link>
             <button
